@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.items{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+.items p{
+    float: right;
+    background-color: rgba(0, 0, 0, 0.043);
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.items a{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    float: right;
+    margin: 20px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.items a:hover{
+    background-color: rgb(161, 0, 0);
+    cursor: pointer;
+}
+
+.items img{
+    padding: 0px;
+    width: 250px;
+    transition: .3s ease;
+}
+#ip{
+    width: 150px;
+    margin-left: 40px;
+}
+#ip:hover{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+#mc:hover{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+#wtc{
+    width: 150px;
+    margin-left: 40px;
+}
+#wtc:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+#air{
+    width: 260px;
+}
+#air:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); }
+.cart{
+    margin: 80px;
+    padding: 20px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.043);
+    font-family: 'Roboto', sans-serif;
+}
+#clear-cart{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 20px;
+    border-radius: 25px;
+    width: 150px;
+}
+#clear-cart:hover{
+    background-color: rgb(180, 70, 51);
+    cursor: pointer;
+}
+input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button {
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+
+}
+input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button:hover{
+    cursor: pointer;
+    background-color: rgb(94, 93, 93);
+}
+input{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 90px;
+    margin: 10px;
+}
+.delete-item{
+    width: 150px;
+    font-size: 15px;
+    padding: 5px;
+}
+h1{
+    margin: auto;
+    margin-top: 0;
+    width: fit-content;
+    color: #808080;
+}
+#pay{
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 20px;
+    border-radius: 25px;
+    float: right;
+    width: 220px;
+}
+#pay:hover{
+    background-color: rgb(90, 90, 90);
+    cursor: pointer;
+}
