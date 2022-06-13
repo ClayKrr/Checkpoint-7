@@ -8,7 +8,7 @@ In this Repositorie I created an eCommerce website based on shopping cart manipu
 2. Delete items from the cart.
 3. Like items through a clickable heart-shaped button that will redirect you to a wishlist (in build) page.
 4. See the total price adjusted according to quantity and deletions.
-5. Checkout button that will direct you to a paypal pay sandbox.
+5. Checkout button that will direct you to a paypal sandbox.
 
 -in the second example I have tried another concept which fly the items to the cart
 and then you can click the shopping cart icon in order to show the items inside.
